@@ -1,9 +1,63 @@
 function setup(){
   createCanvas(600, 400);
+  strokeWeight(5);
 }
 
 function draw(){
-  background(200);
+  background(210, 240, 255);
   // add your drawing code here ...
+  stroke(100, 10, 160)
+  fill(130, 0, 200)
+  ellipse(450,300,40)
+  ellipse(431, 271, 40)
+  ellipse(470, 270, 40)
+  ellipse(415, 245, 40)
+  ellipse(485, 245, 40)
+  ellipse(450, 246, 40)
+  ellipse(422, 217, 38)
+  ellipse(448, 212, 40)
+  ellipse(479, 217, 40)
+  noFill()
+  stroke(100, 200, 100)
+  arc(400, 190, 60, 60, 390, 60)
+  stroke(250, 240, 120)
+  fill(250, 250, 200)
+  triangle(60, 200, 20, 80, 100, 80)
+  line(60, 80, 81, 127)
+  line(40, 80, 73, 160)
+  line(49, 175, 80, 80)
+  line(40, 142, 60, 80)
+  line(30, 110, 40, 80)
+  line(90, 110, 80, 80)
+  fill(255, 220, 255)
+  stroke(255, 200, 255)
+  arc(60, 50, 80, 80, 380, 176)
+  arc(96, 74, 40, 40, 362, 84)
+  arc(63, 74, 40, 40, 377, 47)
+  arc(27, 74, 40, 40, 76, 376);
+  stroke(255, 220, 255)
+  ellipse(84, 44, 15)
+  ellipse(33, 69, 15)
+  ellipse(33, 79, 10)
+  ellipse(38, 80, 1)
+  ellipse(38, 83, 1)
+  ellipse(63, 70, 31)
+  ellipse(62, 70, 31)
+  ellipse(50, 66.6, 15)
+  ellipse(60, 50, 37)
+  ellipse(92.5, 72, 10)
+  ellipse(80, 67.8, 4.4)
+  ellipse(84, 67.8, 4.4)
+  ellipse(89.5, 78, 4.4)
+  ellipse(38.5, 83.5, .5)
+  ellipse(39.5, 83.2, .2)
+  ellipse(38.7, 82.9, .3)
+  ellipse(38.6, 82.7, .3)
+  ellipse(38.8, 82.4, .3)
+  ellipse(39, 82.2, .3)
+  ellipse(39, 81.8, .3)
+  ellipse(38, 81.6, .3)
+  ellipse(38, 81.4, .3)
+  elipse(37, 81.2, .3)
   
 }
